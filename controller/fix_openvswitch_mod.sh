@@ -6,6 +6,10 @@
 #  * Inserting openvswitch module
 #  * not removing bridge module because bridges exist (virbr0)
 # invoke-rc.d: initscript openvswitch-switch, action "load-kmod" failed.
+#
+# Chathura M. Sarathchandra Magurawalage
+# Email: csarata@essex.ac.uk
+#        chathura.sarathchandra@gmail.com
 
 sudo apt-get install linux-headers-$(uname -r)
 

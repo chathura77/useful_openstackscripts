@@ -8,7 +8,7 @@
 #
 # Chathura S. Magurawalage
 # email: csarata@essex.ac.uk
-#        77.chathura@gmail.com
+#        chathura.sarathchandra@gmail.com
 
 ((
 #Check for root permissions

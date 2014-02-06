@@ -7,7 +7,7 @@
 #
 # Chathura S. Magurawalage
 # email: csarata@essex.ac.uk
-#        77.chathura@gmail.com
+#        chathura.sarathchandra@gmail.com
 ((
 NAME="myImage"
 DISK_FORMAT=qcow2
