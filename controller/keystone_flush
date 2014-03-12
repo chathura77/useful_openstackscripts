@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#
+#
+# Openstack Grizzly - Flushes expired keystone tokens from the  database
+#
+#
+# Chathura S. Magurawalage
+# email: csarata@essex.ac.uk
+#        chathura.sarathchandra@gmail.com
+
+
+sql_password=password
+
+mysql -u root -p$sql_password keystone -e "
+delete from token where expires < NOW();"

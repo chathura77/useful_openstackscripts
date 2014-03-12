@@ -54,7 +54,7 @@ PASSWORD=${PASSWORD:-1234}
 
 #Role member
 
-ROLE=${ROLE:-ade557dbcc1d4602836a2866c88314ff}
+ROLE=${ROLE:- #Add role id here}
 
 if [ -n "$NEW_TENANT_NAME" ];
 then
